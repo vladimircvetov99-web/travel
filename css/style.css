@@ -252,3 +252,17 @@ img {
     }
 
 /* Benefits styles end */
+
+@media (max-height: 840px) {
+    .benefits__title {
+            padding-top: 50px;
+            padding-bottom: 50px;
+    }
+}
+
+@media (max-height: 750px) {
+    .benefits__title {
+            padding-top: 20px;
+            padding-bottom: 20px;
+    }
+}
