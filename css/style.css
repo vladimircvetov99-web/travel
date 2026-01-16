@@ -188,6 +188,10 @@ img {
 
 /* Benefits styles*/
 
+.benefits {
+    height: 700px;
+}
+
 .benefits__wrap {
     max-width: 1262px;
     background-color: white;
