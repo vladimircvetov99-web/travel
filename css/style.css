@@ -87,10 +87,11 @@ margin: 0 auto;
 /* Header styles start */
 
 .header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 3;
 
 }
 
@@ -216,11 +217,7 @@ margin: 0 auto;
 .benefits{
     margin-bottom: 131px;
 }
-
-.benefits {
-    height: 700px;
-}
-
+    
 .benefits__wrap {
     max-width: 1262px;
     background-color: white;
