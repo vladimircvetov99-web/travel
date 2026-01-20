@@ -31,8 +31,10 @@
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -97,12 +99,17 @@ padding: 0 15px;
 
 }
 
+.header_active {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 .header__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top: 56px;
+    padding: 56px 0;
 }
 
 .header__list {
@@ -731,7 +738,7 @@ padding: 0 15px;
         display: block;
     }
     .header__wrapper {
-        padding-top: 28px;
+        padding: 28px 0;
     }
         .header__nav{
             width: 100%;
